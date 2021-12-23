@@ -2,11 +2,11 @@ html{
   font-family: 'Mulish', sans-serif;
 }
 *{
-  margin: 10px;
+  margin: 5px;
 }
 body{
   position: relative;
-  padding: 40px;
+  padding: 25px;
 }
 ul {
     list-style: none;
@@ -24,17 +24,39 @@ ul {
     background-color:  #3C64B1;
     padding: 5px 25px;
     color: white;
-    justify-content: space-between;
+    transition: 0.5s;
+  }
+  .button2{
+    background-color:  #3C64B1;
+    padding: 5px 25px;
+    color: white;
     transition: 0.5s;
   }
   .button:hover {
     background:purple;    
   }
+  .button2:hover {
+    background:purple;    
+  }
   .part_one{
     display: flex;
     text-align: center;
+    justify-content: space-around;
+    padding: 26px;
   }
- .second_part{
+  .find{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    width: 6em
+  }
+  .input{
+    position: relative;
+    z-index: -1;
+  }
+  .second_part{
+   text-align: center;
    display: inline-block;
  }
   .three_opt{
@@ -48,13 +70,16 @@ ul {
     flex-direction: row;
   }
   .state{
+    cursor: pointer;
     position: fixed ;
     right: 20px;
     bottom: 20px;
-    padding: 10px 10px;
+    padding: 5px 5px;
     background-size: 100px;
     border-radius: 50%;
-    color: white;
     background-color:skyblue;
+  }
+  .table{
+    display: block;
   }
 
